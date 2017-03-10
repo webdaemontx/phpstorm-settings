@@ -1,0 +1,17 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c47c0519-2c42-4403-9d38-2819829f27e1" name="DESU DEV Deployment Server" url="http://desu.dev.local:8083">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="a1cb6576-6d1f-4bf7-9ecd-5d0c15354f90" name="Mercy DEV Deployment Server" url="http://172.23.196.22">
+        <fileTransfer host="172.23.196.22" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions muteSftpMessages="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
