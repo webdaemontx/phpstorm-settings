@@ -12,6 +12,9 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="6a336416-6f79-4ff7-a2ed-71b3261c3b05" name="Tiffin Local Server" url="http://tiffin.dev.dd:80">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
