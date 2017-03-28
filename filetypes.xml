@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
+      <mapping ext="" type="Bash" />
       <mapping ext="info" type="Ini" />
       <mapping pattern="*.admin.inc" type="PHP" />
       <mapping ext="theme" type="PHP" />
