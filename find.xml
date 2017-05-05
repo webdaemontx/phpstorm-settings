@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
+    <option name="customScope" value="File '.../docroot/sites/all/modules/custom/tiffin_npc/tiffin_npc.module - [tiffin-dev]'" />
+    <option name="defaultScopeName" value="File '.../docroot/sites/all/modules/custom/tiffin_npc/tiffin_npc.module - [tiffin-dev]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="SEARCH_SCOPE" value="File '.../docroot/sites/all/modules/custom/tiffin_npc/tiffin_npc.module - [tiffin-dev]'" />
   </component>
 </application>
