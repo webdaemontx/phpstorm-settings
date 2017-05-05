@@ -7,7 +7,7 @@
   <component name="PhpAutoImport" auto_import_file_scope="true" />
   <component name="PhpCodeSniffer">
     <phpcs_settings>
-      <PhpCSConfiguration standards="Drupal;MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/.composer/vendor/bin/phpcs" />
+      <PhpCSConfiguration standards="Drupal;MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" timeout="15000" tool_path="$USER_HOME$/.composer/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
@@ -20,7 +20,7 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="Acquia PHP5_6">
-        <phpinfo binary_type="PHP" php_cgi="/Applications/acquia-drupal/php5_6/bin/php-cgi" php_cli="/Applications/acquia-drupal/php5_6/bin/php" path_separator=":" version="5.6.19" warning="Cannot load Xdebug - extension already loaded&#10;">
+        <phpinfo binary_type="PHP" php_cgi="/Applications/acquia-drupal/php5_6/bin/php-cgi" php_cli="/Applications/acquia-drupal/php5_6/bin/php" path_separator=":" version="5.6.19">
           <additional_php_ini />
           <configuration_file>/Applications/acquia-drupal/php5_6/bin/php.ini</configuration_file>
           <configuration_options>
@@ -308,7 +308,7 @@
             <configuration_option name="user_ini.cache_ttl" value="300" />
             <configuration_option name="user_ini.filename" value=".user.ini" />
             <configuration_option name="variables_order" value="GPCS" />
-            <configuration_option name="xdebug.auto_trace" value="1" />
+            <configuration_option name="xdebug.auto_trace" value="0" />
             <configuration_option name="xdebug.cli_color" value="0" />
             <configuration_option name="xdebug.collect_assignments" value="0" />
             <configuration_option name="xdebug.collect_includes" value="1" />
@@ -333,16 +333,16 @@
             <configuration_option name="xdebug.force_display_errors" value="0" />
             <configuration_option name="xdebug.force_error_reporting" value="0" />
             <configuration_option name="xdebug.halt_level" value="0" />
-            <configuration_option name="xdebug.idekey" value="PHPSTORM" />
+            <configuration_option name="xdebug.idekey" value="" />
             <configuration_option name="xdebug.max_nesting_level" value="256" />
             <configuration_option name="xdebug.max_stack_frames" value="-1" />
             <configuration_option name="xdebug.overload_var_dump" value="1" />
             <configuration_option name="xdebug.profiler_aggregate" value="0" />
             <configuration_option name="xdebug.profiler_append" value="0" />
-            <configuration_option name="xdebug.profiler_enable" value="1" />
+            <configuration_option name="xdebug.profiler_enable" value="0" />
             <configuration_option name="xdebug.profiler_enable_trigger" value="0" />
             <configuration_option name="xdebug.profiler_enable_trigger_value" value="" />
-            <configuration_option name="xdebug.profiler_output_dir" value="/tmp" />
+            <configuration_option name="xdebug.profiler_output_dir" value="/var/tmp/" />
             <configuration_option name="xdebug.profiler_output_name" value="cachegrind.out.%p" />
             <configuration_option name="xdebug.remote_autostart" value="0" />
             <configuration_option name="xdebug.remote_connect_back" value="0" />
@@ -356,7 +356,7 @@
             <configuration_option name="xdebug.scream" value="0" />
             <configuration_option name="xdebug.show_exception_trace" value="0" />
             <configuration_option name="xdebug.show_local_vars" value="0" />
-            <configuration_option name="xdebug.show_mem_delta" value="1" />
+            <configuration_option name="xdebug.show_mem_delta" value="0" />
             <configuration_option name="xdebug.trace_enable_trigger" value="0" />
             <configuration_option name="xdebug.trace_enable_trigger_value" value="" />
             <configuration_option name="xdebug.trace_format" value="0" />
@@ -730,7 +730,7 @@
         </phpinfo>
       </interpreter>
       <interpreter name="Acquia PHP7_0">
-        <phpinfo binary_type="PHP" php_cgi="/Applications/acquia-drupal/php7_0/bin/php-cgi" php_cli="/Applications/acquia-drupal/php7_0/bin/php" path_separator=":" version="7.0.4">
+        <phpinfo binary_type="PHP" php_cgi="/Applications/acquia-drupal/php7_0/bin/php-cgi" php_cli="/Applications/acquia-drupal/php7_0/bin/php" path_separator=":" version="7.0.4" warning="Failed loading /Applications/acquia-drupal/php7_0/ext/xdebug.so:  dlopen(/Applications/acquia-drupal/php7_0/ext/xdebug.so, 9): Symbol not found: _basic_globals&#10;  Referenced from: /Applications/acquia-drupal/php7_0/ext/xdebug.so&#10;  Expected in: flat namespace&#10; in /Applications/acquia-drupal/php7_0/ext/xdebug.so&#10;">
           <additional_php_ini />
           <configuration_file>/Applications/acquia-drupal/php7_0/bin/php.ini</configuration_file>
           <configuration_options>
