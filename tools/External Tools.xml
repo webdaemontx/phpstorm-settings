@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Personal Code Cleanup Tool" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/.composer/vendor/bin/php-cs-fixer" />
+      <option name="PARAMETERS" value="fix --verbose --config=/Users/shanford/.composer/vendor/friendsofphp/php-cs-fixer/.php_cs.dist --path-mode=intersection &quot;$FileDir$/$FileName$&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
