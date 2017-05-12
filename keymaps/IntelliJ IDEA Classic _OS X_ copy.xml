@@ -1,5 +1,9 @@
 <keymap version="1" name="IntelliJ IDEA Classic (OS X) copy" parent="Mac OS X">
   <action id="ChangesView.Revert" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+  <action id="EditorSelectWord" />
   <action id="PublishGroup.Upload">
     <keyboard-shortcut first-keystroke="ctrl meta alt u" />
   </action>
